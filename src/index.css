@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #b6b6b6;
+}
+
+nav {
+  background-color: #9c9c9c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4e00cc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4e00cc;
+}
+
+nav div {
+  font-size: 1.5rem;
+  background-color: #4e00cc;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  color: #fff;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #000000;
+  margin-top: 2rem;
+}
+
+.item-card {
+  border: 1px solid #b9b9b9;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  margin: 1rem;
+  background-color: #ffffff;
+}
+
+.item-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  color: #000000;
+}
+
+.item-card h3 {
+  margin-top: 0.5rem;
+  color: #000000;
+}
+
+.item-card p {
+  margin: 0.3rem 0;
+  color: #000000;
+}
+
+.item-description {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.item-card button {
+  background-color: #4e00cc;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
